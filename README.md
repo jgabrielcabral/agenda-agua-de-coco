@@ -29,5 +29,5 @@ O teste consiste no desenvolvimento de pequeno sistema para agendamento de audit
 - Executar o comando de instalação das dependências do front: `$npm install`
 - Executar o comando para rodar o ambiente de front local: `$npm run dev`
 - Executar o comando para rodar o ambiente de teste local: `$php artisan serve`
-- Acesse o sistema no navegador através da url ['localhost'](http://127.0.0.1:8000/)
+- Acesse o sistema no navegador através da url [localhost](http://127.0.0.1:8000/)
 - Utilizar a funcionalidade de resgistrar para criar um novo usuário
