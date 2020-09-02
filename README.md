@@ -26,4 +26,4 @@ O teste consiste no desenvolvimento de pequeno sistema para agendamento de audit
 - Executar o comando de reconhecimento das classes: $composer dump-autoload
 - Executar o comando de construção e teste do banco de dados: $php artisan migrate --seed
 - Executar o comando para rodar o ambiente de teste local: $php artisan serve
-- Acesse o sistema no navegador através da url ['localhost'](http://127.0.0.1:8000/))
+- Acesse o sistema no navegador através da url ['localhost'](http://127.0.0.1:8000/)
