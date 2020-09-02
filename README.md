@@ -20,7 +20,9 @@ O teste consiste no desenvolvimento de pequeno sistema para agendamento de audit
 
 ## Configuração Local Inicial
 
-- Copiar o arquivo .env.example para o arquivo .env
+- Executar o comando para clonar o repositório: `git clone https://github.com/jgabrielcabral/agenda-agua-de-coco.git`
+- Criar o arquivo .env no diretório raiz do projeto
+- Copiar o conteúdo do arquivo .env.example para o arquivo .env
 - Configurar o arquivo .env com as variáveis de ambiente para o carregamento do banco de dados
 - Executar o comando de geração de chaves do Laravel: `$php artisan key:generate`
 - Executar o comando de instalação das dependências: `$composer install`
