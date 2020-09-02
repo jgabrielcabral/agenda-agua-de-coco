@@ -15,6 +15,7 @@ O teste consiste no desenvolvimento de pequeno sistema para agendamento de audit
 - PDO PHP Extension
 - Tokenizer PHP Extension
 - XML PHP Extension
+- Composer
 - Servidor de Banco de Dados MySQL/MariaDB
 - Navegador Chrome
 
@@ -36,13 +37,13 @@ DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-* Executar o comando de geração de chaves do Laravel: 
-```
-php artisan key:generate
-```
 * Executar o comando de instalação das dependências do projeto:
 ```
 composer install
+```
+* Executar o comando de geração de chaves do Laravel: 
+```
+php artisan key:generate
 ```
 * Executar o comando de reconhecimento das classes:
 ```
