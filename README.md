@@ -24,7 +24,16 @@ O teste consiste no desenvolvimento de pequeno sistema para agendamento de audit
     * ```git clone https://github.com/jgabrielcabral/agenda-agua-de-coco.git```
 * Criar o arquivo .env no diretório raiz do projeto
 * Copiar o conteúdo do arquivo .env.example para o arquivo .env
-* Configurar o arquivo .env com as variáveis de ambiente para o carregamento do banco de dados
+* Criar um novo banco no SGBD local
+* Configurar o arquivo .env com as variáveis de ambiente para o carregamento do banco de dados:
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
 * Executar o comando de geração de chaves do Laravel: 
     * ```php artisan key:generate```
 * Executar o comando de instalação das dependências do projeto:
